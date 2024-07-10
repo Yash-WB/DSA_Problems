@@ -1,7 +1,5 @@
 ﻿/*242.Valid Anagram
-Easy
-Topics
-Companies
+
 Given two strings s and t, return true if t is an anagram of s, and false otherwise.
 
 An Anagram is a word or phrase formed by rearranging the letters of a different word or phrase, typically using all the original letters exactly once.
@@ -64,16 +62,16 @@ namespace DSA_Problems
 
         static void Main(string[] args)
         {
-            string str1 = "Cat"; // First input string
-            string str2 = "tacc"; // Second input string
+            string str1 = "Cat";
+            string str2 = "tacc";
 
-            if (Program.ValidAnagram(str1, str2) == true) // Check if the strings are anagrams
+            if (Program.ValidAnagram(str1, str2) == true)
             {
-                Console.WriteLine("Valid Anagram"); // Output if the strings are anagrams
+                Console.WriteLine("Valid Anagram"); 
             }
             else
             {
-                Console.WriteLine("Invalid Anagram"); // Output if the strings are not anagrams
+                Console.WriteLine("Invalid Anagram"); 
             }
         }
     }

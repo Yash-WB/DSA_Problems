@@ -69,10 +69,10 @@ namespace DSA_ProblemsDa2
 
         static void Main(string[] args)
         {
-            int n = 4; // Number of people in the circle
-            int time = 5; // Total time to pass the pillow
+            int n = 4; 
+            int time = 5;
 
-            Console.WriteLine(PassThePillow.PassTheP(n, time)); // Output the person holding the pillow at the given time
+            Console.WriteLine(PassThePillow.PassTheP(n, time));
         }
     }
 }

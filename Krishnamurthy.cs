@@ -1,5 +1,5 @@
 ﻿/*Check if a number is a Krishnamurthy Number or not
-Last Updated : 07 Jan, 2024
+
 A Krishnamurthy number is a number whose sum of the factorial of digits is equal to the number itself.
 For example, 145 is the sum of the factorial of each digit.
 1! + 4! + 5! = 1 + 24 + 120 = 145
@@ -48,14 +48,14 @@ namespace DSA
 
         static void Main(string[] args)
         {
-            int n = 145; // Number to check if it is a Krishnamurthy number
-            if (Krishnamurthy.CheckKrishnamurthy(n)) // Check if the number is a Krishnamurthy number
+            int n = 145;
+            if (Krishnamurthy.CheckKrishnamurthy(n))
             {
-                Console.WriteLine("Krishnamurthy"); // Output if the number is a Krishnamurthy number
+                Console.WriteLine("Krishnamurthy");
             }
             else
             {
-                Console.WriteLine("Not Krishnamurthy"); // Output if the number is not a Krishnamurthy number
+                Console.WriteLine("Not Krishnamurthy"); 
             }
         }
     }
