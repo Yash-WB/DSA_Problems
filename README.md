@@ -4,3 +4,4 @@
 4. Second Largest Element in a string.
 5. Length of second last word in a string.
 6. Remove duplicates from sorted array.
+7. Water Bottles Problem.
