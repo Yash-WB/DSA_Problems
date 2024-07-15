@@ -5,3 +5,5 @@
 5. Length of second last word in a string.
 6. Remove duplicates from sorted array.
 7. Water Bottles Problem.
+8. Happy Number
+9. Trap Rain Water
